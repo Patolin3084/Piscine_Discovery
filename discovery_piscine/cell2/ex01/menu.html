@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/68/Tren_a_las_nubes_crossing_viaduct2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    button{
+        margin-top: -500px;
+        width: 200px;
+        height: 100px;
+        background-color: #0270c2;
+        font-size: 2rem;
+        border-radius: 20px;
+        border: solid 2px black;
+        box-shadow: 10px 5px 10px black;
+    }
+    button:hover {
+        background-color: #008efb;
+        cursor: pointer;
+    }
+    button:focus {
+        background-color: #35a8ff;
+        cursor: pointer;
+        color: white;
+    }
+    ul{
+        width: 160px;
+        height: auto;
+        background-color: antiquewhite;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    }
+    ul:hover{
+        background-color:  rgb(244, 222, 193);
+    }
+    li {
+        margin-top: 15px;
+    }
+    li:last-child {
+        margin-bottom: 15px;
+    }
+    li:hover{
+        cursor: pointer;
+        color: #008efb;
+    }
+
+</style>
+<body>
+    <button>Ver menu</button>
+    <ul>
+        <li>Camarote 1ra Clase</li>
+        <li>Camarote 2da Clase</li>
+        <li>Camarote 3ra Clase</li>
+    </ul>
+</body>
+</html>
